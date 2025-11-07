@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="TyFsadOQ$_a~B4GD`@=E" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="G}H6N~`pxR5tUm}Xofp]"><value name="ID"><shadow type="math_number_minmax" id="kDoW+3iT/}B$UTt@{Iy)"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">4</field></shadow></value></block></statement></block><block type="radio_on_string_drag" id="(0zKpR,?k/=vb%coyV!o" x="336" y="-5"><value name="HANDLER_DRAG_PARAM_receivedString"><block type="argument_reporter_string" id="c)%jw!v=0cFIs;lA-Xj;" deletable="false"><mutation localizationname="radio.onReceivedString|handlerParam|receivedString"></mutation><field name="VALUE">receivedString</field></block></value><statement name="HANDLER"><block type="device_show_leds" id="pdgvlaZO4k.K?2_N^}sl"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="y2eGq.9d~gXdW48gzHtg" x="-6" y="149"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="nm]-Yj!IV!}GmxKQaayw"><value name="msg"><shadow type="text" id="Yf6ae|CpW,}9Z;Zn+/YS"><field name="TEXT">sonriure</field></shadow></value></block></statement></block></xml>
